@@ -1,0 +1,24 @@
+ "errorMessage": "That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 69701eb59eac256b08669344391569a6 in your message.)",
+  "errorType": "RateLimitError",
+
+
+"errorMessage": "Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)",
+  "errorType": "Timeout",
+
+
+"errorMessage": "Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "errorType": "APIConnectionError",
+
+
+ "errorMessage": "Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)",
+  "errorType": "Timeout",
+
+
+"errorMessage": "No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://onboard.openai.com for details, or email support@openai.com if you have any questions.",
+  "errorType": "AuthenticationError",
+
+
+  "errorMessage": "HTTP code 502 from API (<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n)",
+  "errorType": "APIError",
+
+
